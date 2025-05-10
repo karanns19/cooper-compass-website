@@ -19,6 +19,7 @@ export default function Home() {
         <div className="max-w-7xl mx-auto flex items-center justify-between px-4 sm:px-6 lg:px-4 h-20">
           <Link href="/" className="flex items-center">
             <Image src="/logo.png" alt="Logo" width={48} height={48} className="h-12 w-12 object-contain" />
+            <span className="ml-3 text-[#432143] text-xl font-bold">Cooper Compass</span>
           </Link>
           <nav className="hidden md:flex space-x-10">
             {navLinks.map((link) => (
@@ -173,7 +174,6 @@ export default function Home() {
               <h2 className="text-black font-extrabold text-3xl sm:text-4xl leading-tight mb-4">Our Approach</h2>
               <h3 className="text-gray-900 font-bold text-xl mb-2">One unified digital ecosystem.</h3>
               <p className="text-gray-500 text-xl leading-relaxed mb-2">We&apos;re building an intelligent, connected platform to bring real-time clarity to baggage movement – for airports, airlines, and passengers.</p>
-              <p className="text-gray-500 text-xl leading-relaxed">One unified digital ecosystem.</p>
             </div>
           </div>
         </div>
@@ -215,10 +215,7 @@ export default function Home() {
             <div className="w-full md:w-auto flex flex-col items-start text-left">
               <h3 className="text-white text-xl font-bold mb-6 text-left">Contact</h3>
               <div className="flex items-start mb-2">
-                <span className="text-white text-xl font-medium text-left">Mail Us : <br />coopercompass@gmail.com</span>
-              </div>
-              <div className="flex items-start mb-2">
-                <span className="text-white text-xl font-medium text-left">Phone : <br />+91 8838664488</span>
+                <span className="text-white text-xl font-medium text-left">Mail Us : <br />coopercompassofficial@gmail.com</span>
               </div>
             </div>
           </div>
